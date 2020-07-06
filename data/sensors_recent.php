@@ -37,10 +37,12 @@
 <html class="no-js">
 	<head>
 		<meta http-equiv="refresh" content="60">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	</head>
 	<body>
-		<table border="1">
-			<tr>
+		<img src="https://meetjestad.nl/images/5dc94f60a26fc.png" width="300">
+		<table class="table table-bordered table-sm" table-striped>
+			<tr class="table-primary">
 				<th>ID</th>
 				<th>Time</th>
 				<th>Temp</th>
@@ -298,7 +300,7 @@
 		</table>
 
 		<p><b>Statistics per gateway</b></p>
-		<table border="1">
+		<table class="table table-bordered table-sm">
 		<tr><th>Gateway</th><th>Number of messages</th><th>Number of nodes</th><th>Nodes</th></tr>
 		<?php
 			arsort($messagecount_per_gateway);
