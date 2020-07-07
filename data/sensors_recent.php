@@ -39,7 +39,7 @@
 		<meta http-equiv="refresh" content="60">
 	</head>
 	<body>
-		<table border="1">
+		<table class="table table-sm table-striped table-bordered">
 			<tr>
 				<th>ID</th>
 				<th>Time</th>
